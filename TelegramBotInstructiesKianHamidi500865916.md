@@ -30,17 +30,17 @@ In deze handleiding leer je hoe je een NodeMCU kunt aansturen met Telegram. We m
 1. Open de Arduino IDE op je computer.
 2. Ga links bovenin naar **Sketch** > **Include Library** > **Manage Libraries**.
 3. Zoek naar **UniversalTelegramBot** en installeer deze bibliotheek.
-   
-   ![](C:\Users\kiann\AppData\Roaming\marktext\images\2024-10-02-21-34-10-image.png)
-4. Zoek naar **ArduinoJson** (door Benoit Blanchon) en installeer de laatste stabiele versie.
 
-![](C:\Users\kiann\AppData\Roaming\marktext\images\2024-10-02-21-34-34-image.png)
+![](InstructionPictures/1.png)
+5. Zoek naar **ArduinoJson** (door Benoit Blanchon) en installeer de laatste stabiele versie.
+
+![](InstructionPictures/2.png)
 
 ### 4. Voorbereiding van de Arduino-code
 
 1. Open het voorbeeld **echobot** in de UniversalTelegramBot bibliotheek. Dit vind je onder **File** > **Examples** > **UniversalTelegramBot** > **esp8266** > **echobot**.
 
-![](C:\Users\kiann\AppData\Roaming\marktext\images\2024-10-02-21-35-09-image.png)
+![](InstructionPictures/3.png)
 
 1. Pas de volgende waarden aan in de code:
    - **WiFi-gegevens**: Vul je SSID (Naam van het netwerk) en wachtwoord in tussen de `""` op de lijn waar `#define WIFI_SSID` staat.
@@ -52,13 +52,13 @@ In deze handleiding leer je hoe je een NodeMCU kunt aansturen met Telegram. We m
 2. Selecteer het juiste board en poort in de Arduino IDE via **Tools** > **Board** en **Tools** > **Port**.
 3. Klik op de uploadknop om de code naar je NodeMCU te sturen.
    
-   ![](C:\Users\kiann\AppData\Roaming\marktext\images\2024-10-02-21-31-06-image.png)
+![](InstructionPictures/4.png)
 
 ### 6. Open de Serial Monitor
 
 1. Open de Serial Monitor in de Arduino IDE via **Tools** > **Serial Monitor**.
 
-![](C:\Users\kiann\AppData\Roaming\marktext\images\2024-10-02-21-31-25-image.png)
+![](InstructionPictures/5.png)
 
 1. In de Serial Monitor's bovenste balk aan de rechter kant moet je de baudrate instellen op **115200**.
 2. Controleer of de verbinding met WiFi succesvol is. Je zou een melding moeten zien in de Serial Monitor dat de NodeMCU is verbonden.
@@ -146,5 +146,6 @@ In deze handleiding leer je hoe je een NodeMCU kunt aansturen met Telegram. We m
 - [Telegram Bot API](https://core.telegram.org/bots/api)
 - [Arduino Universal Telegram Bot](https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot)
 - [ArduinoJson](https://arduinojson.org/)
+- [Handleiding Op DLO](https://icthva.sharepoint.com/:w:/s/FDMCI_ORG__CMD-Amsterdam/Eb7Jd27yWphMuVFbMHV_9WoBEg5_zqAQilsb6Q3gPSKueg?e=f5PM7l)
 
 Volg deze stappen zorgvuldig en je zult succesvol je NodeMCU kunnen aansturen via Telegram!
