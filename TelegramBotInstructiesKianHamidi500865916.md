@@ -4,6 +4,8 @@
 
 In deze handleiding leer je hoe je een NodeMCU kunt aansturen met Telegram. We maken gebruik van de Telegram Bot API om je NodeMCU te laten communiceren via Telegram. Volg de onderstaande stappen zorgvuldig.
 
+> Als je ergens vast loopt kijk aan het einde van de handleiding voor de FME (Frequently Made Errors)
+
 ## Benodigdheden
 
 - Een NodeMCU (ESP8266)
