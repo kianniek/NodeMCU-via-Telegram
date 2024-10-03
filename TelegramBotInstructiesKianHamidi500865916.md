@@ -32,6 +32,7 @@ In deze handleiding leer je hoe je een NodeMCU kunt aansturen met Telegram. We m
 3. Zoek naar **UniversalTelegramBot** en installeer deze bibliotheek.
 
 ![](InstructionPictures/1.png)
+
 5. Zoek naar **ArduinoJson** (door Benoit Blanchon) en installeer de laatste stabiele versie.
 
 ![](InstructionPictures/2.png)
